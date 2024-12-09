@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site da Joyce Braga</title>
+
+  <link rel="stylesheet" href="css/landpage.css">
+
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#about">Sobre Mim</a>
+      <a href="#education">Formação & Idioma</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#contact">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about"> 
+      <div class="content-box">
+      <h1>Sobre Mim</h1>
+      <img src="img/Imagens Capa Joyce Braga 5018377.jpg" alt="Minha Imagem"style="float:left; width:300px; height:300px; margin:10px; border-radius:50%;">
+      <p>Sou uma profissional em formação na área de Análise e Desenvolvimento de Sistemas (ADS), apaixonada por QA (Quality Assurance) e inovação. Determinada, rápida e focada, estou sempre em busca de aprendizado e desafios que me permitam crescer e entregar resultados de qualidade. 
+        <br>
+        <br>
+
+        Atibaia, minha cidade natal, moldou minha personalidade pela simplicidade e autenticidade. Hoje, meu objetivo é me especializar em linguagens de programação e aplicar esse conhecimento para atuar de forma diferenciada no mercado, garantindo excelência em testes e processos. 
+        <br>
+        <br>
+            
+        Valorizo a honestidade, a sinceridade e a determinação. Esses princípios me guiam tanto na vida quanto na carreira, e me motivam a enfrentar os desafios com coragem e dedicação. Estou especialmente interessada em ambientes dinâmicos que incentivem a inovação e evitem a estagnação. 
+        <br>
+        <br>
+            
+        No momento, estou focada em me qualificar para o mercado global, incluindo o aprendizado de novos idiomas, com o sonho de ampliar minhas possibilidades e contribuir com projetos significativos. Testar em ambientes reais e participar de construções desde o início são algumas das experiências que mais me fascinam na área de qualidade. 
+        <br> 
+        <br></p>
+      </div>
+    </section>
+    <section id="education">
+      <div class="content-box">
+      <h1>Formação & idiomas</h1>
+      <p><ul>
+        <h2>Minha formação</h2> 
+        <li>Primeira Formação em Licenciatura - Artes Visuais</li>
+        <li>Segunda Graduação em Tecnologia - Analise e Desenvilvimento de Sistema - Em Andamento</li>
+        <h2>Idioma</h2>
+        <li> Português BR Nativo</li>
+        <li> Inglês Basico - Iniciante</li>
+        </ul>
+      </p>
+    </div>
+    </section>
+    <section id="portfolio">
+      <div class="content-box">
+      <h1>Portfólio</h1>
+      <p> <a href="https://johleety.github.io/fds.uninter/" target="_blank" >Primeiro Trabalho</a>
+      </p>
+    </div>
+    </section>
+    <section id="contact">
+      <div class="content-box">
+      <h1>Contato</h1>
+      <p>Entre em contato conosco</p>
+      <section id="contact">
+        <div class="content-box" style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px;">
+          <!-- Formulário -->
+          <form id="formContact" class="formulario" onsubmit="handleSubmit(event)"> 
+            <p>Envie uma mensagem preenchendo o formulário abaixo:</p>
+            <div class="field">
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+            </div>
+            <div class="field">
+                <label for="telefone">Seu Telefone:</label>
+                <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+            </div>
+            <div class="field">
+                <label for="email">Seu E-Mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+            </div>
+            <div class="field">
+                <label for="mensagem">Sua mensagem:</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+            </div>
+            <input type="submit" name="acao" value="Enviar">
+          </form>
+      
+          <!-- Links -->
+          <div class="contact-links">
+            <h2>Minhas Páginas</h2>
+            <ul>
+              <li><a href="https://www.linkedin.com/in/joyce-de-rosato-braga-9b48a08b/" target="_blank">LinkedIn</a></li>
+              <li><a href="https://github.com/Johleety" target="_blank">GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+  </main>
+
+    <script src="js/landpage.js"></script>
+</body>
+</html>

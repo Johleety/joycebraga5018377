@@ -1,0 +1,157 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth; /* Ativa rolagem suave */
+  }
+
+  /* Estilo do topo fixo */
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px 0; 
+    text-align: center;
+    z-index: 1000;
+    border-bottom: 1px solid #ddd; 
+}
+
+header nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: normal; 
+    padding: 5px 15px;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #4caf50; 
+    background-color: transparent;
+}
+
+  /* Estilo das seções */
+  section {
+      padding: 60px 15px; /* Menor espaçamento no topo */
+      margin-top: 40px; 
+      box-sizing: border-box;
+  }
+  
+
+/*Distribução de cor de cada link*/
+  #about {background-color:#bfe9bf;}
+  #contact {background-color:#bfe9bf;}
+  #education {background-color:#bfe9bf;}
+  #portfolio {background-color:#bfe9bf;}
+
+
+/* Aqui fica a formatação do fundo dos conteudos*/
+  .content-box {
+    background-color: #fff; 
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 900px; 
+    margin: 0 auto;
+    box-sizing: border-box; 
+}
+
+/*montagem formulario*/
+.body-content > .active {
+    display: block;
+}
+span {
+    font-size: 40px;
+}
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*detalhes da forma Formulario*/
+.formulario {
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  padding: 30px;
+  border: 1px solid #ddd; 
+  border-radius: 12px; 
+  background-color: #f9f9f9; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.field {
+  width: 100%;
+  margin: 20px 0; /* Mais espaçamento entre os campos */
+}
+
+.field label {
+  font-size: 1.1em;
+  display: block;
+  margin-bottom: 8px; /* Espaçamento para o texto do campo */
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; 
+    padding: 12px 10px; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1em;
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #4caf50; /* Borda verde suave ao focar */
+}
+
+textarea {
+  resize: none; 
+  height: 120px;
+  line-height: 1.5;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px; 
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049; /* Tom mais escuro de verde ao passar o mouse */
+}
+.contact-links {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+.contact-links ul {
+  list-style: none; /* Remove os marcadores */
+  padding: 0;
+}
+.contact-links a {
+  text-decoration: none;
+  color: #2711a7;
+  font-weight: bold;
+  display: block;
+  margin: 10px 0;
+  transition: color 0.3s;
+}
+.contact-links a:hover {
+  color: #4caf50; /* Cor verde ao passar o mouse */
+}
